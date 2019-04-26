@@ -1,0 +1,238 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: "Nexa Light" ,sans-serif;
+	background-color:#509B8E;
+	background-size: cover;
+}
+.top{
+	margin: 0;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+
+.top h2{
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.navbar ul{
+	margin-top: -4.5%;
+	float: right;
+}
+
+.navbar ul li{
+	margin: 25px;
+	display: inline-block;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar ul li a:hover{
+	border-bottom: 2px solid white;
+	transition: 0.5s ease;
+}
+
+.active{
+	border-bottom: 2px solid #284546;
+}
+
+.headertext{
+	margin-top: 15%;
+}
+
+.headertext h1{ 
+	text-align: center;
+	font-size: 80px;
+}
+
+
+.button a{
+	color: white;
+	text-decoration:none;
+	border: 2px solid #284546;
+	padding:10px 30px;
+	border-radius: 30px;
+	margin-left: 43%;
+	position: absolute;
+}
+
+.top2{
+	margin-top: 23.3%;
+	background-color: white;
+	height: 700px;
+}
+
+.h2text h2{
+	text-align: center;
+	font-size: 35px;
+	position: absolute;
+	left: 41%;
+	top: 110%;
+	background: transparent;
+	border-bottom: 2px solid #509B8E;
+}
+
+.workingpoints .points{
+	position: absolute;
+	top: 130%;
+	background: transparent;
+	margin-left: 7%;
+}
+
+.points li{
+	margin: 15px;
+	background: transparent;
+}
+
+.workingpoints img{
+	position: absolute;
+	left: 40%;
+	top: 130%;
+	background: transparent;
+	left: 65%;
+	width: 300px;
+	height: 300px;
+}
+.clientssay{
+	background-color: #509B8E;
+	height: 200px;
+}
+
+.lookfor{
+	text-align: center;
+	margin-top: 29px;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+}
+
+.lookfor .look{
+	text-align: center;
+	font-size: 35px;
+	position: absolute;
+	left: 36%;
+	top: 210%;
+	background: transparent;
+	border-bottom: 2px solid #284546;
+}
+
+.clientssay p{
+	margin-top: 12%;
+	font-size: 15px;
+	margin-left: 15%;
+}
+
+.clientssay .p2{
+	margin-top: -7.5%;
+	margin-left: 60%;
+}
+
+.top3{
+	background-color: white;
+	height: 300px;
+}
+
+.top3 .last{
+	background: transparent;
+}
+
+.top3 .last h2{
+	position: absolute;
+	background: transparent;
+	left: 5%;
+	top: 273%;
+	font-size: 40px;
+}
+
+.top3 .last p{
+	position: absolute;
+	background: transparent;
+	left: 5%;
+	top: 280%;
+	font-weight: bold;
+}
+
+.bottomnavbar{
+	position: absolute;
+	top: 276%;
+	left: 31%;
+	background: transparent;
+}
+
+.bottomnavbar a{
+	font-weight: bold;
+	color: #0E3338;
+	background: transparent;
+	margin: 45px;
+	left: 30%;
+	text-decoration: none;
+}
+
+.bottomnavbar .active2{
+	color: white;
+	border-radius: 5px;
+	background-color: #0E3338;
+	padding: 10px 30px;
+	height:50px;
+	width: 50px;
+}
+
+.bottomnavbar a:hover{
+	color: white;
+	border-radius: 5px;
+	background-color: #0E3338;
+	padding: 10px 30px;
+	height:50px;
+	width: 50px;
+	transition: 0.5s ease;
+}
+
+/*------responsive--------*/
+
+@media only screen and (max-width: 1000px){
+	.top h2{
+		margin-top: -10px;
+	}
+	.navbar{
+		margin-top: -10px;
+	}
+	.h2text h2{
+		margin-top: -100px;
+	}
+	.points{
+		margin-top: -150px;
+	}
+	.workingpoints img{
+		margin-top: -120px;
+	}
+	.look{
+		margin-top: -160px;
+	}
+	.clientssay p{
+		background:transparent;
+		top: 1%;
+		margin-top: 120px;
+		margin-left: 70px;
+	}
+	.clientssay .p2{
+		margin-left: 500px;
+	}
+	.last h2,p{
+		margin-top: -20%;
+		margin-left: -2.5%;
+	}
+	.bottomnavbar{
+		margin-top: -20%;
+		margin-left: -8%;
+
+	}
+}
+
+
+
+
+
